@@ -1,0 +1,30 @@
+<Page
+    x:Class="Gestore_Spese.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Gestore_Spese"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Grid Margin="0,10,10,0" RenderTransformOrigin="0.504,0.437">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="477*"/>
+        </Grid.ColumnDefinitions>
+        <FlyoutBase.AttachedFlyout>
+            <DatePickerFlyout/>
+        </FlyoutBase.AttachedFlyout>
+        <ToggleSwitch x:Name="Dark_Mode" Header="Dark Mode" Margin="1147,10,0,0" VerticalAlignment="Top" Toggled="ToggleSwitch_Toggled" FontSize="20" Width="120" FontFamily="Dubai" Grid.Column="1" RenderTransformOrigin="0.992,0.792"/>
+        <DatePicker VerticalAlignment="Top" Width="384" FontFamily="Dubai" FontSize="20" Height="72" Margin="10,10,0,0" Grid.Column="1"/>
+        <CheckBox Grid.Column="1" Content="CheckBox" Margin="10,73,0,0" VerticalAlignment="Top"/>
+        <CheckBox Grid.Column="1" Content="CheckBox" Margin="185,73,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.825,0.688"/>
+        <CheckBox Grid.Column="1" Content="CheckBox" Margin="287,73,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.825,0.688"/>
+        <CheckBox Grid.Column="1" Content="CheckBox" Margin="185,110,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.825,0.688"/>
+        <CheckBox Grid.Column="1" Content="CheckBox" Margin="10,110,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.825,0.688"/>
+        <CheckBox Grid.Column="1" Content="CheckBox" Margin="287,110,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.825,0.688"/>
+        <CheckBox Grid.Column="1" Content="CheckBox" Margin="185,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.825,0.688"/>
+        <CheckBox Grid.Column="1" Content="CheckBox" Margin="10,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.825,0.688"/>
+        <CheckBox Grid.Column="1" Content="CheckBox" Margin="287,147,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.825,0.688"/>
+    </Grid>
+</Page>
